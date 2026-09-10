@@ -61,7 +61,7 @@ Paleta
 | Destaque | `#8B5CF6` |
 
 Estrutura do projeto
-
+``text
 WebCollege/
 │
 ├── index.html
