@@ -1,4 +1,4 @@
-# LENS — WebCollege
+# Site sobre materias da faculdade
 
 Projeto desenvolvido durante meus estudos de desenvolvimento web, com foco nos fundamentos de **HTML e CSS**.
 
