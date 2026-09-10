@@ -1,12 +1,12 @@
-# Site sobre materias da faculdade
+# Portifólio
 
 Projeto desenvolvido durante meus estudos de desenvolvimento web, com foco nos fundamentos de **HTML e CSS**.
 
 A ideia do projeto é colocar em prática os conceitos aprendidos em aula e evoluir a página conforme avanço nos estudos.
 
-## 📌 Sobre o projeto
+Sobre o projeto
 
-O LENS é um site/portfólio simples desenvolvido do zero utilizando HTML e CSS.
+Esse site é um site/portfólio simples desenvolvido do zero utilizando HTML e CSS.
 
 O projeto contém diferentes páginas para praticar a criação de uma estrutura de site completa:
 
@@ -17,7 +17,7 @@ O projeto contém diferentes páginas para praticar a criação de uma estrutura
 
 O objetivo principal não é apenas criar uma página visualmente agradável, mas entender como cada parte do HTML e CSS funciona.
 
-## 🚀 Tecnologias utilizadas
+Tecnologias utilizadas
 
 - HTML5
 - CSS3
@@ -39,7 +39,7 @@ Durante o desenvolvimento, estou praticando conceitos como:
 - Organização de páginas
 - Layout responsivo
 
-## 🎨 Design
+Design
 
 O projeto utiliza uma proposta **Dark & Clean**, com:
 
@@ -49,7 +49,7 @@ O projeto utiliza uma proposta **Dark & Clean**, com:
 - Roxo como cor de destaque
 - Layout simples e minimalista
 
-### Paleta
+Paleta
 
 | Elemento | Cor |
 |----------|-----|
@@ -60,9 +60,8 @@ O projeto utiliza uma proposta **Dark & Clean**, com:
 | Texto secundário | `#8B949E` |
 | Destaque | `#8B5CF6` |
 
-## 📂 Estrutura do projeto
+Estrutura do projeto
 
-```text
 WebCollege/
 │
 ├── index.html
