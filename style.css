@@ -134,6 +134,94 @@ footer{
 .about {
     display: flex;
     justify-content: space-between;
+
     gap: 80px;
+
     padding: 80px 10%;
+}
+
+
+/* LADO ESQUERDO */
+
+.about-text {
+    width: 55%;
+}
+
+.about-text span {
+    color: #8B5CF6;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.about-text h1 {
+    font-size: 42px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.about-text p {
+    color: #A1A1AA;
+    font-size: 17px;
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+}
+
+
+/* LADO DIREITO */
+
+.learning {
+    width: 40%;
+
+    background-color: #11161D;
+
+    border: 1px solid #263241;
+    border-radius: 10px;
+
+    padding: 30px;
+}
+
+.learning h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+
+/* CADA ITEM */
+
+.learning-item {
+    display: flex;
+
+    gap: 20px;
+
+    padding: 18px 0;
+
+    border-bottom: 1px solid #263241;
+}
+
+.learning-item:last-child {
+    border-bottom: none;
+}
+
+
+.learning-item > span {
+    color: #8B5CF6;
+
+    font-weight: bold;
+}
+
+
+.learning-item h3 {
+    font-size: 16px;
+
+    margin-bottom: 5px;
+}
+
+
+.learning-item p {
+    color: #8B949E;
+
+    font-size: 14px;
+
+    margin: 0;
 }
