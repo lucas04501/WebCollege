@@ -22,7 +22,7 @@ Tecnologias utilizadas
 - HTML5
 - CSS3
 
-## 📚 Conceitos praticados
+##  Conceitos praticados
 
 Durante o desenvolvimento, estou praticando conceitos como:
 
@@ -39,7 +39,7 @@ Durante o desenvolvimento, estou praticando conceitos como:
 - Organização de páginas
 - Layout responsivo
 
-Design
+## Design
 
 O projeto utiliza uma proposta **Dark & Clean**, com:
 
@@ -49,7 +49,7 @@ O projeto utiliza uma proposta **Dark & Clean**, com:
 - Roxo como cor de destaque
 - Layout simples e minimalista
 
-Paleta
+## Paleta
 
 | Elemento | Cor |
 |----------|-----|
