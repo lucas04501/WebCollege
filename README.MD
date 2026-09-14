@@ -1,44 +1,44 @@
 # WebCollege
 
-Projeto desenvolvido durante meus estudos de desenvolvimento web, com foco nos fundamentos de **HTML e CSS**.
+This project was developed during my web development studies, focusing on the fundamentals of **HTML and CSS**.
 
-A ideia do projeto é colocar em prática os conceitos aprendidos em aula e evoluir a página conforme avanço nos estudos.
+The idea of ​​the project is to put the concepts learned in class into practice and evolve the page as I progress in my studies.
 
-Sobre o projeto
+About the project:
 
-Um site/portfólio simples desenvolvido do zero utilizando HTML e CSS.
+A simple website/portfolio developed from scratch using HTML and CSS.
 
-O projeto contém diferentes páginas para praticar a criação de uma estrutura de site completa:
+The project contains different pages to practice creating a complete website structure:
 
 - Home
 - About
 - Contact
 
-O objetivo principal não é apenas criar uma página visualmente agradável, mas entender como cada parte do HTML e CSS funciona.
+The main objective is not only to create a visually appealing page, but to understand how each part of HTML and CSS works.
 
-Tecnologias utilizadas
+Technologies Used
 
 - HTML5
 - CSS3
 
-## Conceitos praticados
+## Concepts Practiced
 
-Durante o desenvolvimento, estou praticando conceitos como:
+During development, I am practicing concepts such as:
 
-- Estrutura básica do HTML
-- Tags semânticas
-- Links e navegação entre páginas
-- Classes e seletores CSS
-- Cores e tipografia
-- Margin e Padding
-- Flexbox
+- Basic HTML structure
+- Semantic tags
+- Links and page navigation
+- CSS classes and selectors
+- Colors and typography
+- Margins and padding
+- Flexible boxes
 - Grid
-- Bordas e arredondamentos
-- Hover
-- Organização de páginas
-- Layout responsivo
+- Borders and rounding
+- Mouse over
+- Page organization
+- Responsive layout
 
-## Estrutura do projeto
+## Project Structure
 
 ```text
 WebCollege/
