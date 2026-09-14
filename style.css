@@ -66,13 +66,13 @@ body{
 }
 
 .nav-menu a{
-    color: var(--texto-principal);
+    color: var(--destaque-color);
     text-decoration: none;
     transition: color 0.5s;
 }
 
 .nav-menu a:hover{
-    color: var(--destaque-color);
+    color: var(--texto-principal);
 }
 
 .btn{
