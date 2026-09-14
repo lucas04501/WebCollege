@@ -1,0 +1,26 @@
+<main> tag semântica que marca o conteúdo principal da página — o que muda de página pra página (diferente da navbar e do footer, que se repetem em todas). Só pode ter um <main> por página, e ele ajuda acessibilidade/SEO porque diz "é aqui que está o assunto real".
+ <section> agrupa um bloco de conteúdo que tem um tema/assunto próprio dentro da página. "Hero" não é uma tag nem uma regra do HTML — é só um nome de convenção (usado como class) pra essa primeira seção grande e chamativa logo abaixo do menu, geralmente com uma frase de impacto + botão de ação.
+ 
+ Div container (hero-content): é uma <div> comum, sem significado semântico nenhum — serve só como "caixa" pra agrupar o texto e facilitar a estilização depois (ex: controlar largura máxima, centralizar).
+
+Heading nível 2 (<h2>): os headings têm hierarquia (h1 > h2 > h3...). Como o <h1> já foi usado no seu nome, na navbar, a frase de apresentação da Home usa <h2> — ela é importante, mas não é o título mais alto da página.
+
+Parágrafo (<p>): texto corrido, complementa o heading.
+
+Link estilizado como botão (class="btn"): continua sendo um <a href="...">texto</a> normal — semanticamente é um link, não um <button>. A classe btn é só pra, mais tarde, o CSS deixar ele com cara de botão (fundo colorido, cantos arredondados).
+
+Cada navegador tem estilos padrão próprios pra certas tags — h1, p, ul, body, etc. já vêm com margem e espaçamento definidos de fábrica, e esses valores variam de navegador pra navegador (Chrome, Firefox, Edge...). Isso é um problema: seu site pode ficar com espaçamentos diferentes dependendo de quem abre. A solução comum é zerar tudo isso logo no início do CSS, usando o seletor universal (*, que seleciona todo elemento da página) pra remover margem e padding padrão de fábrica.
+
+Junto com isso, geralmente também se define box-sizing: border-box. Sem isso, quando você define width: 200px num elemento e depois adiciona padding: 20px, o navegador soma o padding à largura (o elemento fica com 240px na prática). Com border-box, o padding passa a ser incluído dentro dos 200px que você definiu — o que deixa o dimensionamento muito mais previsível.
+
+root
+Ao longo do projeto você vai repetir as mesmas cores em várias regras (cor do texto, cor de fundo, cor de destaque...). Se depois você quiser trocar uma cor, teria que caçar e trocar em cada lugar onde ela aparece — chance grande de esquecer algum. As variáveis CSS resolvem isso: você declara a cor uma vez, dá um nome pra ela, e reutiliza esse nome em qualquer regra.
+
+Isso é declarado dentro de um seletor especial chamado :root (que representa o documento inteiro), e cada variável começa com --:
+
+Próximo passo: estilizar o body — que vai definir os padrões que se aplicam ao documento inteiro (a não ser que algo mais específico sobrescreva depois).
+
+font-family: define a fonte do texto. Você passa uma lista de fontes, separadas por vírgula — o navegador tenta a primeira, e se ela não estiver disponível no dispositivo do usuário, cai pra próxima. Por isso sempre se termina com uma fonte genérica tipo sans-serif (sem serifa, tipo Arial) ou serif (com serifa, tipo Times), como garantia final.
+line-height: controla o espaçamento vertical entre linhas de texto. O padrão do navegador costuma ser meio "apertado" pra parágrafos longos; um valor como 1.6 (sem unidade — significa 1.6× o tamanho da fonte) deixa a leitura mais confortável.
+color: cor do texto.
+background-color: cor de fundo.

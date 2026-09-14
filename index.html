@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--avisa o navegador que esse documento é HTML5-->
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Meu Portifólio</title>
+    <meta charset="UTF-8"> <!--diz ao navegador como converter os bytes do arquivo em caracteres. Sem isso (ou com o errado), acentos e coisas como "ç" viram símbolos estranhos na tela.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--viewport: esse controla como a página aparece no celular. width=device-width diz "usa a largura real da tela do aparelho" e initial-scale=1.0 diz "começa sem zoom, 100%". Sem essa linha, seu site ficaria ilegível no celular sem o usuário dar zoom manualmente.-->
+    <link rel="stylesheet" href="style.css"> <!--linkar o meu arquivo de estilização stylecss-->
+    <title>Meu Portfólio</title>
 </head>
 <body>
     <!-- navbar -->
@@ -13,39 +13,37 @@
             <h1 class="logo">LUCAS PEREIRA</h1>
             <ul class="nav-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+                <li><a href="Projects.html">Projetos</a></li>         
             </ul>
         </div>
     </nav>
     <main>
         <section class="hero">
-                <div class="hero-content">
-                    <h2>Olá, eu sou lucas, desenvolvedor em formação</h2>
-                    <p>Estudando desenvolvimento web e backend.</p>
-                    <a href="about.html" class="btn">Ver projetos</a>
+            <div class="hero-container">
+                <h2>Esse é meu Portfólio</h2>
+                <p>bla bla bla</p>
+                    <a class="btn" href="Projects.html">Meus Projetos</a>
+            </div>
+        </section>
+        
+        <section class="caixas">
+            <div class="caixas-container">
+                <div class="caixa">
+                    <h3>HTML5</h3>
+                    <p>Estrutura</p>
                 </div>
-            </section>
-
-            <section class="features">
-                <div class="container">
-                    <div class="caixinha">
-                        <h3>HTML</h3>
-                        <p>Estrutura</p>
-                    </div>
-                    <div class="caixinha">
-                        <h3>CSS</h3>
-                        <p>Estilo</p>
-                    </div>
-                    <div class="caixinha">
-                        <h3>JavaScript</h3>
-                        <p>Interatividade</p>
-                    </div>
+                <div class="caixa">
+                    <h3>CSS</h3>
+                    <p>Estilização</p>
                 </div>
-            </section>
+                <div class="caixa">
+                    <h3>JavaScript</h3>
+                    <p>interatividade</p>
+                </div>
+            </div>
+        </section>
     </main>
-        <footer>
-            <p>&copy; 2026 </p>
-        </footer>
+        <footer><p>&copy; 2026</p></footer>
 </body>
-</html>
