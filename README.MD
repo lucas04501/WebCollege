@@ -1,4 +1,4 @@
-# LENS — WebCollege
+# WebCollege
 
 Projeto desenvolvido durante meus estudos de desenvolvimento web, com foco nos fundamentos de **HTML e CSS**.
 
@@ -37,16 +37,6 @@ Durante o desenvolvimento, estou praticando conceitos como:
 - Hover
 - Organização de páginas
 - Layout responsivo
-
-## Design
-
-O projeto utiliza uma proposta **Dark & Clean**, com:
-
-- Fundo escuro
-- Tons de cinza
-- Branco para textos
-- Roxo como cor de destaque
-- Layout simples e minimalista
 
 ## Estrutura do projeto
 
