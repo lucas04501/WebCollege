@@ -14,5 +14,141 @@
 }
 
 body{
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    color: var(--texto-principal);
+    background-color: var(--fundo-principal);
+}
+
+.navbar{
+    background-color: var(--fundo-principal);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px var(--border-color);
+    /* box-shadow: deslocamento-x deslocamento-y desfoque cor; */
+}
+
+
+.nav-container{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1800px;
+    margin: 0 auto;
+    /*display: flex: transforma o elemento num container flexível — os filhos diretos dele passam a se organizar numa linha
+    (por padrão, lado a lado, horizontalmente) em vez de empilhados um embaixo do outro (que é o comportamento padrão de divs). */
     
+    /*justify-content: controla o espaçamento horizontal entre os filhos dentro do flex container. O valor space-between empurra o primeiro filho pra ponta esquerda,
+    o último pra ponta direita, e distribui o espaço sobrando entre eles — é assim que se consegue "logo na esquerda, menu na direita". */
+    
+    /* align-items: controla o alinhamento vertical dos filhos dentro do flex container. center centraliza tudo verticalmente, 
+    útil aqui porque o logo (h1) e os links (ul) podem ter alturas de texto diferentes. */
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--destaque-color );
+    /* 1,5 vezes o tamanho da fonte padrão do elemento raiz (o documento HTML). */
+}
+
+.nav-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    
+    /* gap: quando um elemento é display: flex, o gap define o espaço entre os filhos (aqui, entre cada <li>)
+    list-style: none: por padrão, todo <ul> vem com uma bolinha (•) antes de cada <li> — é o estilo de lista de fábrica do navegador.
+    list-style: none remove essa bolinha.
+    */
+}
+
+.nav-menu a{
+    color: var(--texto-principal);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-menu a:hover{
+    color: var(--destaque-color);
+}
+
+.btn{
+    display: inline-block;
+    border-radius: 100px;
+    background-color: var(--destaque-color);
+    color: var(--texto-principal);
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero{
+    background: linear-gradient(135deg, var(--fundo-principal), var(--fundo-card));
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.caixas{
+    padding: 4rem 2rem;
+}
+
+.caixas-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.caixa{
+    background-color: var(--fundo-card);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.6s;
+}
+
+.caixa:hover{
+    transform: translateY(-15px);
+}
+
+footer{
+    background-color: var(--fundo-card);
+    color: var(--texto-principal);
+    text-align: center;
+    padding: 25px;
+}
+
+.sobre{
+    padding: 5rem 5rem;
+}
+
+.sobre-container{
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    gap: 2rem;
+}
+
+.sobre-texto p{
+    color: var(--texto-secundario);
+    margin-top: 15px;
+}
+
+.sobre-tech{
+    background-color: var(--fundo-card);
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.sobre-tech h3{
+    margin-bottom: 25px;
+}
+
+.tech-menu{
+    list-style: none;
+}
+
+.tech-menu li{
+    padding: 0.3rem 0;
 }
