@@ -152,3 +152,21 @@ footer{
 .tech-menu li{
     padding: 0.3rem 0;
 }
+
+.contato{
+    padding: 5rem 5rem;
+    text-align: center;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li{
+    padding: 0.5rem;
+}
+
+.links a{
+    color: var(--texto-secundario);
+    text-decoration: none;
+}
